@@ -31,25 +31,27 @@ python script.py
 ```
 
 ### Menu Options:
-1️⃣ **Generate Table** → Enter a number, and the program will generate and save the multiplication table.
-2️⃣ **Show Table** → Enter a number to retrieve and display a previously saved table.
+1️⃣ **Generate Multiplication Table** → Enter a number, and the program will generate and save the multiplication table.
+2️⃣ **Show Multiplication Table** → Enter a number to retrieve and display a previously saved table.
 3️⃣ **Exit** → Closes the program.
 
 ### Example Run
 ```
-Choose an option: 
-1️⃣ Generate Table
-2️⃣ Show Table
+🌟 Main Menu 🌟
+1️⃣ Generate Multiplication Table
+2️⃣ Show Multiplication Table
 3️⃣ Exit
-➡️ Enter choice: 1
-Enter number: 5
-5
-10
-15
-...
-50
+➡️ Enter your choice (1, 2, or 3): 1
+Enter a number to generate its multiplication table: 5
 
-✅ Multiplication table saved as '5s_table.txt'.
+🔢 Multiplication Table of 5:
+
+5 x 1 = 5
+5 x 2 = 10
+...
+5 x 10 = 50
+
+✅ Multiplication table saved as '5_multiplication_table.txt'.
 ```
 
 ## 📂 File Format
@@ -66,4 +68,10 @@ Generated tables are stored as text files in the format:
 - **File not found** → Informs the user if a requested table doesn't exist.
 
 ## 📜 License
-This project is licensed under the MIT Lice
+This project is licensed under the MIT License.
+
+---
+
+🚀 **Happy Coding!** 🎯
+
+
